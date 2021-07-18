@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="always"
+        android:icon="@drawable/en_vi">
+        <menu>
+            <item android:title="En-Vi"
+                android:id="@+id/action_en_vi"
+
+                android:icon="@drawable/en_vi"
+                app:showAsAction="never"/>
+            <item android:title="Vi-En"
+                android:id="@+id/action_vi_en"
+                android:orderInCategory="100"
+                android:icon="@drawable/vi_en"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+</menu>
